@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: langchain4j-chatmodel-demo
+
+langchain4j:
+  open-ai:
+    chat-model:
+      base-url: https://openrouter.ai/api/v1                    # OpenRouter's API endpoint (compatible with OpenAI API format)
+      api-key: ${OPENROUTER_API_KEY}                            # Get your free API key from https://openrouter.ai/
+      model-name: tngtech/deepseek-r1t2-chimera:free            # Using DeepSeek's free model via OpenRouter
+      log-requests: true                                        # Enable logging to see requests (useful for debugging)
+      log-responses: true                                       # Enable logging to see responses (useful for debugging)
