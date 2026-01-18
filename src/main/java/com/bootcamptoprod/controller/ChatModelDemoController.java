@@ -15,8 +15,6 @@ import dev.langchain4j.model.chat.response.ChatResponse;
 import dev.langchain4j.model.openai.OpenAiChatRequestParameters;
 import dev.langchain4j.model.output.FinishReason;
 import dev.langchain4j.model.output.TokenUsage;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -44,8 +42,6 @@ import java.util.stream.Collectors;
 @RestController
 @RequestMapping("/api/v1/chat")
 public class ChatModelDemoController {
-
-    private static final Logger log = LoggerFactory.getLogger(ChatModelDemoController.class);
 
     @Autowired
     private ChatModel chatModel;
