@@ -6,7 +6,17 @@ This repository demonstrates the full capabilities of the **LangChain4j ChatMode
 👉 [**LangChain4j ChatModel: A Complete Beginner’s Guide**](https://bootcamptoprod.com/langchain4j-chatmodel/)
 
 🎥 **Video Tutorial**: Prefer hands-on learning? Watch our step-by-step implementation guide.<br>
-👉 YouTube Tutorial - Coming Soon!!
+👉 YouTube Tutorial - [**LangChain4j ChatModel: The Complete Guide to Requests, Responses & Parameters**](https://youtu.be/t10pAideDHc)
+
+<p align="center">
+  <a href="https://youtu.be/t10pAideDHc">
+    <img src="https://img.youtube.com/vi/t10pAideDHc/0.jpg" alt="LangChain4j ChatModel: The Complete Guide to Requests, Responses & Parameters" />
+  </a>
+</p>
+
+<p align="center">
+  ▶️ <a href="https://youtu.be/t10pAideDHc">Watch on YouTube</a>
+</p>
 
 ---
 
